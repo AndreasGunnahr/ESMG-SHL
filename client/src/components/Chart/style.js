@@ -10,12 +10,17 @@ export const TableContainer = styled.div`
   table {
     padding: 1rem;
     width: 100%;
-    // border-collapse: collapse;
     border-spacing: 0;
     border-radius: 10px;
     background: ${({ theme }) => theme.color.darkBlue};
 
     tr {
+      :first-child {
+        th {
+          color: ${({ theme }) => theme.color.yellow};
+          font-size: 1.35rem;
+        }
+      }
       th {
         ${headerFont};
         color: ${({ theme }) => theme.color.white};
@@ -39,7 +44,7 @@ export const TableContainer = styled.div`
         text-align: center;
         padding: 1rem 0.5rem;
         background: ${({ theme }) => theme.color.lightBlue};
-        border-top: 2px solid ${({ theme }) => theme.color.darkBlue};
+        border-top: 4px solid ${({ theme }) => theme.color.darkBlue};
         :first-child {
           ${headerFont};
           color: ${({ theme }) => theme.color.yellow};
