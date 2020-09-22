@@ -7,7 +7,7 @@ const useFetch = () => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          `https://api.eliteprospects.com/v1/leagues/shl/teams?apiKey=${process.env.REACT_APP_API_KEY}&fields=*`
+          `https://api.eliteprospects.com/v1/leagues/shl/standings?apiKey=${process.env.REACT_APP_API_KEY}&fields=*`
         );
         const json = await res.json();
         setResponse(json);
