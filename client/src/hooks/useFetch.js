@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 
-const useFetch = (url, options) => {
+const useFetch = () => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(url, options);
+        const res = await fetch(
+          `https://api.eliteprospects.com/v1/leagues/shl/teams?apiKey=${process.env.REACT_APP_API_KEY}&fields=*`
+        );
         const json = await res.json();
         setResponse(json);
       } catch (error) {
@@ -18,4 +20,4 @@ const useFetch = (url, options) => {
   return { response, error };
 };
 
-module.exports = useFetch;
+export default useFetch;
