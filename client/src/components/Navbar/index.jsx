@@ -9,7 +9,7 @@ const Navbar = () => {
       <Logo to="/">SHL</Logo>
       <Hamburger open={open} setOpen={setOpen} />
       <NavWrapper>
-        <NavLink to="/">Chart</NavLink>
+        <NavLink to="/">Standings</NavLink>
         <NavLink to="/about">About</NavLink>
       </NavWrapper>
     </NavbarContainer>

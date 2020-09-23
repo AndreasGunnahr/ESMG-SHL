@@ -1,7 +1,11 @@
 import React from "react";
 import { TableContainer } from "./style";
-import { useTable } from "react-table";
-
+import { useTable, useSortBy } from "react-table";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLongArrowAltDown,
+  faLongArrowAltUp,
+} from "@fortawesome/free-solid-svg-icons";
 const Chart = ({ columns, data }) => {
   const {
     getTableProps,
@@ -9,10 +13,13 @@ const Chart = ({ columns, data }) => {
     headerGroups,
     rows,
     prepareRow,
-  } = useTable({
-    columns,
-    data,
-  });
+  } = useTable(
+    {
+      columns,
+      data,
+    },
+    useSortBy
+  );
 
   return (
     <TableContainer>
@@ -21,7 +28,21 @@ const Chart = ({ columns, data }) => {
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
               {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()}>{column.render("Header")}</th>
+                <th {...column.getHeaderProps(column.getSortByToggleProps())}>
+                  {column.render("Header")}
+                  {console.log(column)}
+                  <span>
+                    {column.isSorted ? (
+                      column.isSortedDesc ? (
+                        <FontAwesomeIcon icon={faLongArrowAltDown} />
+                      ) : (
+                        <FontAwesomeIcon icon={faLongArrowAltUp} />
+                      )
+                    ) : (
+                      ""
+                    )}
+                  </span>
+                </th>
               ))}
             </tr>
           ))}

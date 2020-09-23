@@ -7,8 +7,9 @@ export const columnsData = [
         accessor: "position",
       },
       {
-        Header: "Club",
+        Header: "Team",
         accessor: "teamName",
+        sortType: "basic",
       },
       {
         Header: "W",
@@ -18,7 +19,7 @@ export const columnsData = [
         Header: "T",
         accessor: "stats.T",
         Cell: (props) => {
-          return props.value !== null ? props.value : "0";
+          return props.value !== null ? props.value : 0;
         },
       },
       {
