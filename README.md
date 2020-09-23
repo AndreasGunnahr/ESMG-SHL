@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/andreasgunnahr/ESMG-SHL/">
-    <img src="https://github.com/AndreasGunnahr/ESMG-SHL/blob/master/client/src/assets/logo.png" alt="Logo" width="100" height="100">
+    <img src="https://github.com/AndreasGunnahr/ESMG-SHL/blob/master/client/src/assets/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">ESMG - SHL Table</h3>
