@@ -21,8 +21,6 @@ const AboutChart = ({ columns, data }) => {
     data,
   });
 
-  console.log(data);
-
   return (
     <>
       <Wrapper>

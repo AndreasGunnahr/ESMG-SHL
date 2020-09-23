@@ -30,7 +30,6 @@ const ShlChart = ({ columns, data }) => {
               {headerGroup.headers.map((column) => (
                 <th {...column.getHeaderProps(column.getSortByToggleProps())}>
                   {column.render("Header")}
-                  {console.log(column)}
                   <span>
                     {column.isSorted ? (
                       column.isSortedDesc ? (

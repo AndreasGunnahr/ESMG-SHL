@@ -14,7 +14,6 @@ const HomePage = () => {
   const { response } = useFetch("/api/info/about");
 
   const columns = useMemo(() => columnsData, []);
-  console.log(response);
 
   return (
     <Container>
