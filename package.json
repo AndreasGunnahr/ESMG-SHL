@@ -1,0 +1,30 @@
+{
+  "name": "esmg-shl",
+  "version": "1.0.0",
+  "description": "API for ESMG-SHL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasGunnahr/ESMG-SHL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasGunnahr/ESMG-SHL/issues"
+  },
+  "homepage": "https://github.com/AndreasGunnahr/ESMG-SHL#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-cron": "^2.0.3",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

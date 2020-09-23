@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 
-const useFetch = () => {
+const useFetch = (url) => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(
-          `https://api.eliteprospects.com/v1/leagues/shl/standings?apiKey=${process.env.REACT_APP_API_KEY}&fields=*`
-        );
+        const res = await fetch(url);
         const json = await res.json();
         setResponse(json);
       } catch (error) {

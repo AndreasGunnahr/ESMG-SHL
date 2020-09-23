@@ -35,6 +35,10 @@ export const Button = styled.button`
 
 export const H1 = styled.h1`
   ${headerFont};
+  font-size: 2rem;
+  color: ${theme.color.white};
+  text-transform: uppercase;
+  letter-spacing: 1px;
 `;
 
 export const FlexRow = styled.div`

@@ -6,7 +6,7 @@ import {
   faLongArrowAltDown,
   faLongArrowAltUp,
 } from "@fortawesome/free-solid-svg-icons";
-const Chart = ({ columns, data }) => {
+const ShlChart = ({ columns, data }) => {
   const {
     getTableProps,
     getTableBodyProps,
@@ -67,4 +67,4 @@ const Chart = ({ columns, data }) => {
   );
 };
 
-export default Chart;
+export default ShlChart;

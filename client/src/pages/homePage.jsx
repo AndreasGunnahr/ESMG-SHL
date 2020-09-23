@@ -1,15 +1,15 @@
 import React, { useMemo } from "react";
 import useFetch from "hooks/useFetch";
-import { Chart } from "components";
+import { ShlChart } from "components";
 import { columnsData } from "../components/ShlChart/data";
 
 const HomePage = () => {
-  const { response, error } = useFetch();
+  const { response } = useFetch("/api/info/shl");
 
   const columns = useMemo(() => columnsData, []);
 
   return (
-    <div>{response && <Chart columns={columns} data={response.data} />}</div>
+    <div>{response && <ShlChart columns={columns} data={response.data} />}</div>
   );
 };
 
