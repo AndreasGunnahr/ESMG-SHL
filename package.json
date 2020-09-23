@@ -4,8 +4,8 @@
   "description": "API for ESMG-SHL",
   "main": "app.js",
   "scripts": {
-    "start": "node start.js",
-    "dev": "nodemon start.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
