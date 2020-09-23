@@ -163,13 +163,13 @@ Project Link: [https://github.com/andreasgunnahr/esmg-shl/](https://github.com/a
 - [Img Shields](https://shields.io)
 - [Font Awesome](https://fontawesome.com)
 
-[contributors-shield]: https://img.shields.io/github/contributors/AndreasGunnahr/esmg-sh.svg?style=flat-square
-[contributors-url]: https://github.com/andreasgunnahr/esmg-sh/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AndreasGunnahr/esmg-sh.svg?style=flat-square
-[forks-url]: https://github.com/andreasgunnahr/esmg-sh/network/members
-[stars-shield]: https://img.shields.io/github/stars/AndreasGunnahr/esmg-sh.svg?style=flat-square
-[stars-url]: https://github.com/andreasgunnahr/esmg-sh/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AndreasGunnahr/esmg-sh.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/AndreasGunnahr/esmg-shl.svg?style=flat-square
+[contributors-url]: https://github.com/andreasgunnahr/esmg-shl/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AndreasGunnahr/esmg-shl.svg?style=flat-square
+[forks-url]: https://github.com/andreasgunnahr/esmg-shl/network/members
+[stars-shield]: https://img.shields.io/github/stars/AndreasGunnahr/esmg-shl.svg?style=flat-square
+[stars-url]: https://github.com/andreasgunnahr/esmg-shl/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AndreasGunnahr/esmg-shl.svg?style=flat-square
 [issues-url]: https://github.com/andreasgunnahr/esmg-shl/issues
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://opensource.org/licenses/MIT
