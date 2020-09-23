@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/andreasgunnahr/ESMG-SHL/">
-    <img src="https://github.com/AndreasGunnahr/ESMG-SHL/blob/master/client/src/assets/logo.png" alt="Logo" width="120" height="120">
+    <img src="https://github.com/AndreasGunnahr/ESMG-SHL/blob/master/client/src/assets/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">ESMG - SHL Table</h3>
@@ -25,7 +25,6 @@
      <a href="https://esmg-shl.herokuapp.com/">View website</a>
     <br />
     <br />
-    ·
     <a href="https://esmg-shl.herokuapp.com/issues">Report Bug</a>
     ·
     <a href="https://esmg-shl.herokuapp.com/issues">Request Feature</a>
@@ -48,6 +47,8 @@
 ## About The Project
 
 The task was to build a web application that creatively displays a sortable table for SHL. Since many of the company's sites have a lot of traffic, they do not want to make an API call every time the page is displayed. They also do not want a delay once the data has been updated in over 1 minute. Therefore, we needed to build some kind of cache to store and update the data.
+
+Also chose to implement an about page with history about my own career.
 
 A list of used resources that I used during the project is listed in the acknowledgements.
 
