@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       <Logo to="/">SHL</Logo>
-      <Hamburger open={open} setOpen={setOpen} />
+      {/* <Hamburger open={open} setOpen={setOpen} /> */}
       <NavWrapper>
         <NavLink to="/">Standings</NavLink>
         <NavLink to="/about">About</NavLink>

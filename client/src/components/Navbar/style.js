@@ -25,11 +25,11 @@ export const Logo = styled(CustomLink)`
 `;
 
 export const NavWrapper = styled(FlexRow)`
-  display: none;
+  display: block;
   margin-right: 1rem;
-  @media (min-width: 500px) {
-    display: block;
-  }
+  // @media (min-width: 500px) {
+  //   display: block;
+  // }
 `;
 
 export const NavLink = styled(CustomLink)`
